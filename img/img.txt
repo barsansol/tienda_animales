@@ -1,0 +1,9 @@
+Imágenes de los animales
+
+4 tamaños
+==================
+
+big 640x480 px
+mid 320x240 px
+low 160x120 px
+pict 40x40 px
