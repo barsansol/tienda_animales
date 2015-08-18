@@ -1,0 +1,49 @@
+/* CSS Para tablas */
+
+/* table */
+table,  th, td{
+	border-top:1px black solid;
+	border-bottom:1px solid #D8D8D8;
+	border-collapse: collapse;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+
+
+/* Alternative color row */
+.TFtable tr{
+	background:#FFFFFF;
+}
+.TFtable tr:nth-child(odd) {
+	background:#FFFFFF;
+}
+.TFtable tr:nth-child(even) {
+	background:#F2F2F2;
+}
+
+.TFtable thead th  {
+	border-top:2px solid red;
+	border-bottom:2px solid red;
+	background:#F7F8EE;
+}
+
+.TFtable tfoot  td {
+	border-top:2px solid red;
+	border-bottom:1px solid blue;
+	background:#EFEFFB;
+}
+
+/* Título de la tabla. Sólo 1 */
+.TFtable caption {
+	display:table-caption;
+	text-align:center; 
+	/* left|right|center|justify|initial|inherit */
+	caption-side:top; 
+	/* bottom|initial|inherit */
+}
+
+/* Estilo de encabezados */
+.TFtable th{
+	text-align:left;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+	<html>
+	<!-- Això és un comentari -->
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="Descripció del tema de la web"
+			content="paraules clau curs html"/>
+		<title>P&agrave;gina de resum</title>
+	</head>
+	
+	<!-- FRAMES NAVIGATOR -->
+	<frameset rows="80,*" framespacing="2" frameborder="no" 
+			noresize="noresize" name="top">
+		<frame src="src/top.html" name="top"/>
+		<frameset cols="200,*">
+			<frame src="src/menu.html" name="menu"/>
+			<frame src="src/content.html" name="content"/>
+		</frameset>
+	</frameset>
+	
+	<!-- NO FRAMES NAVIGATOR -->
+	<noframes>
+		<small>El teu navegador no suporta marcs. 
+		Revisi la teva configuració o provi amb un altre navegador.</small>
+	</noframes>
+</html>
