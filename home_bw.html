@@ -11,11 +11,18 @@
 	<!-- FRAMES NAVIGATOR -->
 	<frameset rows="80,*" framespacing="2" frameborder="no" 
 			noresize="noresize" name="top">
-		<frame src="src/top.html" name="top"/>
+		<frame src="src/top_bw.html" name="top"/>
 		<frameset cols="200,*">
-			<frame src="src/menu.html" name="menu"/>
-			<frame src="src/content.html" name="content"/>
+			<frame src="src/menu_bw.html" name="menu"/>
+
+			<frameset rows="*,50">
+				<frame src="src/content_bw.html" name="content"/>
+				<frame src="src/piePagina_bw.html" name="pie" />
+			</frameset>
+			
 		</frameset>
+
+		
 	</frameset>
 	
 	<!-- NO FRAMES NAVIGATOR -->
